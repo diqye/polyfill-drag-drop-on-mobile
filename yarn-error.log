@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/Cellar/node/9.10.1/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.10.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "polyfill-drag-drop-on-mobile",
+    "version": "1.0.0",
+    "description": "手机拖拽事件polyfill",
+    "main": "index.js",
+    "repository": "https://github.com/ppzzppz/polyfill-drag-drop-on-mobile.git",
+    "author": "diqye<262666212@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/polyfill-drag-drop-on-mobile: you must verify your email before publishing a new package: https://www.npmjs.com/email-edit
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65019:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:132430:22)
+      at Request.emit (events.js:180:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133413:10)
+      at Request.emit (events.js:180:13)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133333:12)
+      at Object.onceWrapper (events.js:272:13)
+      at Gunzip.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:114:19)

@@ -1,0 +1,9 @@
+{
+  "name": "polyfill-drag-drop-on-mobile",
+  "version": "1.0.0",
+  "description": "手机拖拽事件polyfill",
+  "main": "index.js",
+  "repository": "https://github.com/ppzzppz/polyfill-drag-drop-on-mobile.git",
+  "author": "diqye<262666212@qq.com>",
+  "license": "MIT"
+}
