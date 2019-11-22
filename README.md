@@ -1,14 +1,4 @@
-# polyfill-drag-drop-on-mobile
-
-手机上的拖拽事件体验太差，在网上找了个基于touch事件做的polyfill(在感谢里面),使用过程中有Bug(主要是setData报错).
-
-但polyfill没有github，无法提交pull request。故在此建立个
-
-The drag and drop event on the mobile is too bad, I found a 'ployfill' based on touch event(In the following).there are bugs in the process (mainly setData error).
-
-But polyfill does not have github and cannot submit pull request. So created in here
-
-
+使移动端支持拖拽事件
 
 ## 使用 Useage
 ```
@@ -20,4 +10,6 @@ import 'polyfill-drag-drop-on-mobile'
 
 ## 感谢 Thanks
 
-https://www.npmjs.com/package/drag-drop-touch
+https://www.npmjs.com/package/drag-drop-touch 
+
+上述仓库有Bug，看起来也没人维护了，不便于PR，修复后，我建立了这个仓库
